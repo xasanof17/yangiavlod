@@ -1,0 +1,699 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile {
+
+    & > h1 {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 63px;
+        color: #3DB9FF;
+        text-align: center;
+        margin: 15px 0;
+    }
+    
+    & > .mobile-intro {
+
+        & > .inroduction {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 40px 0px;
+            justify-content: center;
+
+            & > .intro {
+
+                margin-right: 4%;
+
+                & > h1 {
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 57.7699px;
+                    line-height: 67px;
+                }
+
+            }
+
+            & > .intro-pict {
+                
+                & > .mobiledev {
+                    width: 540px;
+                    height: 324px;
+                }
+
+            }
+        }
+
+        & > .intro-info {
+
+            & > p {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 166.02%;
+                padding: 0 22%;
+            }
+
+        }
+
+    }
+
+    & > .mobile-services {
+        
+        & > p {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 45px;
+        }
+
+        & > .services-cards {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            & > .card {
+                
+                width: 48%;
+                margin: 40px 0;
+                background-color: #0469FF;
+                color: #ffffff;
+                padding: 30px 23px;
+                background: #0469FF;
+                box-shadow: 5px 4px 87px rgba(0, 0, 0, 0.25);
+
+                & > h4 {
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24.5564px;
+                    line-height: 7px;
+                    margin-bottom: 20px;
+                }
+
+                & > p {
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 166.02%;
+                }
+
+            }
+
+            & > .card:nth-child(2) {
+                background-color: #FF6060;
+                background: #FF6060;
+                box-shadow: 5px 4px 87px rgba(0, 0, 0, 0.25);
+            }
+
+        }
+
+    }
+
+    & > .mobileapp {
+
+        margin-bottom: 70px;
+        
+        & > p {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 162.52%;
+            margin: 40px 0;
+        }
+
+        & > .mobileapp_cards {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            & > .card {
+                padding: 25px 29px;
+                margin: 24px 0;
+                width: 48%;
+                background: #FFFFFF;
+                box-shadow: 5px 4px 87px rgba(0, 0, 0, 0.25);
+
+                & > .card-head {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    
+                    & > .icons {
+                        width: auto;
+                    }
+
+                    & > h3 {
+                        padding: 0 17px;
+                        font-family: 'Source Sans Pro';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24.5564px;
+                        // line-height: 7px;
+                    }
+                }
+
+                & > .card-info {
+
+                    & > ul {
+                        margin-top: 25px;
+                        list-style-type: initial;
+
+                        & > li {
+
+                            font-family: 'Source Sans Pro';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 166.02%;
+
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    & > .approach {
+
+        & > p {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 45px;
+        }
+
+        & > .approach_cards {
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            & > .card {
+
+                margin: 30px 0;
+                padding: 30px 12.8%;
+                width: 75%;
+                background: #FFFFFF;
+                box-shadow: 5px 4px 87px rgba(0, 0, 0, 0.25);
+
+                & > h1 {
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 33.0241px;
+                    line-height: 9px;
+                }
+
+                & > .card-info {
+                    
+                    
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 20px;
+                    align-items: center;
+
+                    & > .info-pict {
+
+                        & > #pict {
+                            width: 443px;
+                            height: 220px;
+                        }
+
+                    }
+
+                    & > .info {
+
+                        
+                        margin-left: 7%;
+                        & > ul {
+
+                            list-style: initial;
+
+                        }
+
+                    }
+
+                }
+            }
+
+            & > .card:nth-child(2) {
+                align-self: flex-end;
+                width: 87%;
+                padding: 30px 35px;
+
+                & > .card-info {
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+
+                    & > .info {
+                        margin-left: 0;
+                    }
+
+                    & > .info-pict {
+                        margin: 1% 8%;
+                        & > .pict {
+                            width: 385px;
+                            height: 215px;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+    & > .solution {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+
+        & > .card {
+            display: flex;
+            flex-direction: row;
+            width: 48%;
+            margin: 29px 0;
+            background: #FFFFFF;
+            box-shadow: 5px 4px 87px rgba(0, 0, 0, 0.25);
+
+            & > .info {
+                padding: 25px 23px;
+                width: 50%;
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                & > h1 {
+                    font-weight: 700;
+                    font-size: 33.0241px;
+                    line-height: 9px;
+                }
+
+                & > p {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 166.02%;
+                }
+
+                & > .button {
+                    font-weight: 600;
+                    font-size: 23.3058px;
+                    line-height: 29px;
+                    letter-spacing: 0.055em;
+                    color: #3DB9FF;
+                }
+            }
+        }
+
+        & > .mapp {
+            flex-direction: column;
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+
+            & > h1 {
+                font-weight: 700;
+                font-size: 33.0241px;
+                line-height: 33px;
+                padding: 25px 30px;
+                padding-bottom: 5px;
+            }
+
+            & > .info {
+                padding-top: 10px;
+                width: 100%;
+                background-color: #3DB9FF;
+                color: #ffffff;
+                
+                & > .button {
+                    color: #ffffff;
+                }
+            }
+        }
+
+        & > .retail {
+            width: 43.5%;
+        }
+
+        & > .tv {
+            width: 52%;
+        }
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 1280px) {
+    
+    .mobile > .approach > .approach_cards > .card {
+        padding: 30px 4%;;
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) {
+        width: 96%;
+    }
+
+    .mobile > .approach > .approach_cards > .card > h1 {
+        line-height: initial;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    
+    .mobile > .mobile-intro > .inroduction > .intro > h1 {
+        font-size: 40.7699px;
+    }
+
+    .mobile > .mobile-intro > .inroduction {
+        justify-content: space-between;
+        padding-left: 8%;
+    }
+
+    .mobile > .mobile-intro > .intro-info > p {
+        padding: 0 8%;
+        font-size: 20px;
+    }
+
+    .mobile > h1 {
+        font-size: 40.9969px;
+    }
+
+    .mobile > .mobile-services > p {
+        font-size: 25px;
+    }
+
+    .mobile > .solution > .card > .info > h1 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: initial;
+    }
+
+    .mobile > .solution > .mapp > h1 {
+        font-size: 25px;
+    }
+
+    .mobile > .solution > .card > .info > .button {
+        font-size: 20px;;
+    }
+
+    .mobile > .mobile-services > .services-cards > .card > p {
+        font-size: 17px;
+    }
+    
+    .mobile > .mobile-services > .services-cards > .card > h4 {
+        font-size: 22px;
+        line-height: initial;
+    }
+
+    .mobile > .mobileapp > p {
+        font-size: 25px;
+    }
+
+    .mobile > .mobileapp > .mobileapp_cards > .card > .card-info > ul > li {
+        font-size: 15px;
+    }
+
+    .mobile > .mobileapp > .mobileapp_cards > .card > .card-head > h3 {
+        font-size: 20px;
+    }
+
+    .mobile > .mobileapp > .mobileapp_cards > .card > .card-info > ul {
+        margin-top: 15px;
+    }
+    
+    .mobile > .approach > p {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    
+    .mobile > .mobile-intro > .inroduction > .intro > h1 {
+        font-size: 38.7699px;
+        line-height: 45px;
+    }
+
+    .mobile > .mobile-intro > .intro-info > p {
+        padding: 0 8%;
+        line-height: 166.02%;
+        font-size: 16.646px;
+    }
+
+    .mobile > h1 {
+        font-size: 30.9969px;
+        line-height: 39px;
+    }
+
+    .mobile > .mobile-services > p {
+        font-size: 17.0714px;
+        line-height: 166.02%;
+    }
+
+    .mobile-services > .services-cards > .card > h4 {
+        font-size: 20px;
+        line-height: normal;
+        line-height: initial;
+    }
+
+    .mobile > .mobile-services > .services-cards > .card > p {
+        font-size: 16px;
+    }
+
+    .mobile > .approach > p {
+        font-size: 25px;
+        font-size: 17.07px;
+        line-height: 166.02%;
+    }
+
+    .mobile > .approach > .approach_cards > .card {
+        margin: 30px 0;
+        padding: 30px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 5px 4px 87px rgb(0 0 0 / 25%);
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) {
+        align-self: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) > .card-info > .info-pict {
+        margin: 0;
+    }
+
+    .mobile > .approach > .approach_cards > .card > .card-info > .info {
+        margin-left: 4%;
+    }
+
+    .mobile > .solution > .card > .info > h1 {
+        font-size: 20.2057px;
+    }
+
+    .mobile > .solution > .card > .info {
+        padding: 10px 14px;
+        width: 50%;
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mobile > .solution > .card > .info > p {
+        font-size: 12.237px;
+        line-height: 166.02%;
+    }
+
+    .mobile > .solution > .card > .info > .button {
+        font-size: 14.2596px;
+        line-height: 18px;
+    }
+
+    .mobile > .solution > .mapp > h1 {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 14px;
+    }
+    // .mobile > .solution > .card > .info {
+    //     padding: 10px 14px;
+    //     width: 100%;
+    // }
+
+    // .mobile > .solution > .tv > .info {
+    //     padding: 10px 14px;
+    //     width: 50%;
+    // }
+
+    .mobile > .solution > .card > .info {
+        padding: 10px 14px;
+        width: 100%;
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mobile > .solution > .tv > .info {
+        width: 50%;
+    }
+
+    .mobile > .solution > .cash > .info {
+        width: 50%;
+    }
+
+    .mobile > .solution > .mapp {
+        flex-direction: column;
+        font-family: "Source Sans Pro";
+        justify-content: flex-end;
+        font-style: normal;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .mobile > .mobile-intro > .inroduction {
+        justify-content: none;
+        padding-left: 0%;
+        flex-direction: column-reverse;
+    }
+
+    .mobile > .mobile-intro > .inroduction > .intro > h1 {
+        font-size: 38.7699px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .mobile > .mobile-services > .services-cards > .card {
+        width: 100%;
+    }
+
+    .mobile > .mobile-services > .services-cards {
+        flex-wrap: wrap;
+    }
+
+    .mobile > .mobileapp > .mobileapp_cards > .card {
+        padding: 25px 18px;
+        margin: 24px 0;
+        width: 100%;
+    }
+
+    .mobile > .approach > .approach_cards > .card > .card-info {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .mobile > .approach > .approach_cards > .card {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .mobile > .approach > .approach_cards > .card > h1 {
+        line-height: normal;
+        line-height: initial;
+        padding: 0 30px;
+    }
+
+    .mobile > .approach > .approach_cards > .card {
+        padding: 0;
+        border: none;
+    }
+
+    .mobile > .approach > .approach_cards > .card > .card-info > .info-pict {
+        margin: 40px 0;
+        margin-bottom: 0;
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) {
+        align-self: flex-end;
+        width: 100%;
+        padding: 0;
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) > .card-info {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) > .card-info {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) > .card-info > .info-pict {
+        margin: 0;
+        align-self: center;
+    }
+
+    .mobile > .solution {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile > .solution > .card {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .mobile > .solution > .tv > .info {
+        width: 100%;
+    }
+
+    .mobile > .solution > .card > .info > h1 {
+        font-size: 27px;
+    }
+
+    .mobile > .solution > .card > .info {
+        padding: 16px 25px;
+    }
+    .mobile > .solution > .card > .info > p {
+        font-size: 12.237px;
+        line-height: 166.02%;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .mobile > .solution > .card > .info > .button {
+        font-size: 23.3058px;
+    }
+    .mobile > .solution > .cash > .info {
+        width: 100%;
+    }
+
+    .mobile > .approach > .approach_cards > .card:nth-child(2) > .card-info > .info-pict {
+        margin: 15px 0;
+        align-self: center;
+    }
+}

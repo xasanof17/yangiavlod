@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.footer-container {
+  margin-top: 30px;
+  .foot_nav {
+    display: flex;
+    margin-left: 580px;
+
+    h3 {
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 36px;
+      color: #000000;
+    }
+
+    button {
+      width: 198px;
+      height: 58px;
+      border: none;
+      background: #3db9ff;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 17px;
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffffff;
+      margin-top: -5px;
+    }
+  }
+  .footer-items {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    .footer-item-links {
+      h4 {
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 20px;
+        color: #000000;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        margin-top: 40px;
+        li {
+          a {
+            font-family: "Source Sans Pro";
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 24px;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    display: grid;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    .logo {
+    
+      svg {
+        path {
+          fill: #3db9ff;
+        }
+      }
+    }
+  }
+}

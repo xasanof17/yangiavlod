@@ -1,0 +1,397 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.marketing {
+
+    & > .marketingDesc {
+
+        padding: 47px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        & > .markDesc_left {
+
+            display: flex;
+            flex-direction: column;
+            
+            & > div {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 57.7699px;
+                line-height: 67px;
+            }
+
+        }
+
+        & > .markDesc_right {
+
+            & > .market_img {
+
+                width: 540px;
+                height: 324px;
+
+            }
+
+        }
+
+    }
+
+    & > .description {
+
+        margin: 24px 115px;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 166.02%;
+
+    }
+
+    & > h1 {
+        
+        margin: 41px 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        text-align: center;
+        line-height: 61px;
+        color: #3DB9FF;
+    }
+
+    & > .mark-services {
+
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 166.02%;
+        color: #000000;
+
+        & > .mark-services_cards {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            justify-content: space-between;
+
+            & > .cards {
+
+                box-sizing: border-box;
+                padding: 30px 23px;
+                background-color: #0469FF;
+                color: #fff;
+                width: 49%;
+                height: auto;
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 166.02%;
+                box-shadow: 5px 4px 87px rgba(0, 0, 0, 0.25);
+
+                & > h5 {
+                    font-weight: 600;
+                    font-size: 24.5564px;
+                    line-height: 7px;
+                    margin-bottom: 20px;
+                }
+                
+            }
+
+            & > .red {
+                background: #FF6060;
+                box-shadow: 5px 4px 87px rgba(0, 0, 0, 0.25);
+            }
+
+        }
+
+        & > .mark-services_cards:nth-child(1) {
+            margin-bottom: 83px;
+        }
+
+    }
+
+    & > .mark-expertise {
+
+        & > p {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 166.02%;
+        }
+
+        & > .expertise-cards {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            & > .card {
+                margin: 15px 0;
+                padding: 15px;
+                width: 258px;
+                height: 148px;
+                background-color: #0469FF;
+                color: #fff;
+
+                & > h5 {
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 15px;
+                }
+
+                & > p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 166.02%;
+                }
+            }
+
+            & > .purple {
+                background-color: #D045B2;
+            }
+
+            & > .red {
+                background-color: #FF6060;
+            }
+
+            & > .orange {
+                background-color: #FE9C28;
+            }
+
+            & > .third {
+                width: 258px;
+                height: 198px;
+            }
+
+            
+
+        }
+        
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .marketing > .marketingDesc > .markDesc_left > div {
+        font-size: 47.9746px;
+        line-height: 55px;
+    }
+
+    .marketing > .marketingDesc > .markDesc_right > .market_img > {
+        width: 260px;
+        height: 260px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .marketing > .description {
+        margin: 24px 50px;
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 166.02%;
+    }
+
+    .marketing > .mark-services {
+        padding: 0 50px;
+    }
+
+    .marketing > h1 {
+        font-size: 30.9969px;
+        line-height: 38px;
+    }
+
+    
+
+    .services_cards > .cards > h5 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14.8023px;
+        line-height: 4px;
+    }
+
+    .marketing > .mark-services > .mark-services_cards > .cards {
+        box-sizing: border-box;
+        width: 336.96px;
+        font-size: 14px;
+    }
+
+    .marketing > .mark-services > .mark-services_cards > .cards > h5 {
+        font-weight: 600;
+        font-size: 14.5564px;
+        line-height: 7px;
+        margin-bottom: 20px;
+    }
+
+    .marketing > .mark-services {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 166.02%;
+    }
+
+    .marketing > .description {
+        font-size: 20px;
+    }
+
+    .marketing > .mark-services > .mark-services_cards > .cards {
+        box-sizing: border-box;
+        width: 356.96px;
+        font-size: 14px;
+    }
+
+    .marketing > .mark-expertise > .expertise-cards > .card {
+        width: 155.52px;
+        height: 89.21px;
+        margin: 10px 0;
+    }
+
+    .marketing > .mark-expertise > .expertise-cards > .card > h5 {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 9px;
+    }
+
+    .marketing > .mark-expertise > .expertise-cards > .card > p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8.14283px;
+        line-height: 166.02%;
+    }
+    .marketing > .mark-expertise > .expertise-cards > .card {
+        /* width: 155.52px; */
+        /* height: 89.21px; */
+        width: 175.52px;
+        margin: 10px 0;
+    }
+    .marketing > .mark-expertise > .expertise-cards > .third {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .marketing > .mark-services > .mark-services_cards > .cards {
+        box-sizing: border-box;
+        width: 49%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:755px) {
+    .marketing > .mark-expertise > .expertise-cards > .third {
+        height: auto;
+    }
+
+    .marketing > .mark-expertise > .expertise-cards > .card {
+        height: 108px;
+        margin: 10px 0;
+    }
+
+    .marketing > .mark-services > .mark-services_cards > .cards {
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .marketing > .marketingDesc {
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: initial;
+    }
+    .marketing > .marketingDesc > .markDesc_left {
+        display: flex;
+        flex-direction: row;
+    }
+    .marketing > .marketingDesc > .markDesc_left > div {
+        margin-left: 10px;
+        font-size: 28.3984px;
+        line-height: 33px;
+        margin-top: 15px;
+    }
+
+    .marketing > .description {
+        margin: 0px 49px;
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 588) {
+    
+}
+
+@media only screen and (max-width:420px) {
+    .marketing > .mark-expertise > .expertise-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .marketing > h1 {
+        line-height: 38px;
+        font-size: 21.4636px;
+        margin: 15px 0;
+    }
+
+    .marketing > .mark-expertise > p {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        font-size: 17px;
+        line-height: 166.02%;
+    }
+
+    .marketing > .description {
+        margin: 0px 0px;
+    }
+    .marketing > .mark-services {
+        padding: 0;
+    }
+
+    .marketing > .marketingDesc > .markDesc_left {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .marketing > .marketingDesc > .markDesc_left > div {
+        margin-left: 10px;
+        font-size: 28.3984px;
+        line-height: 33px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 322.98px) {
+    .marketing > .mark-expertise > .expertise-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
